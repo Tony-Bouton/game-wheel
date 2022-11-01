@@ -2,12 +2,20 @@ ul > li {
   list-style: none;
   text-decoration: none; }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
 body {
   height: 100vh; }
+  body ul > li {
+    list-style: none;
+    text-decoration: none; }
+  body .card {
+    height: 75vh; }
+  body header {
+    height: 30vh; }
 
 p {
-  color: blue; }
-
-ul > li {
-  list-style: none;
-  text-decoration: none; }
+  color: white; }

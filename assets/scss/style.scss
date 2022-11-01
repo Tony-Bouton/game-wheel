@@ -1,16 +1,30 @@
-@import './partials/nav';
+@import "./partials/nav";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body {
-    height: 100vh;
-}
-p{
-    color:blue;
-    
+  height: 100vh;
+
+  & ul > li {
+    list-style: none;
+    text-decoration: none;
+  }
+  .card {
+    height: 75vh;
+  }
+
+  header{
+    height: 30vh;
+  }
 }
 
 
-    ul>li{
-        list-style: none;
-        text-decoration: none;
-         }
- 
+
+
+p {
+  color: white;
+}
